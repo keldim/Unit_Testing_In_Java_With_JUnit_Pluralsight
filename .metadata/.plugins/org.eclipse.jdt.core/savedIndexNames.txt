@@ -1,18 +1,1 @@
 INDEX VERSION 1.130+/Users/ChrisYoo/Desktop/REFERENCE/SoftwareProjects/Spring/Testing/JUnit_John_Sonmez/.metadata/.plugins/org.eclipse.jdt.core
-1828089775.index
-2555085004.index
-677361136.index
-1205831515.index
-667507368.index
-3288195763.index
-3677722309.index
-517843121.index
-524126782.index
-2317423604.index
-3825802963.index
-499570776.index
-796671611.index
-388140763.index
-492960934.index
-4230120275.index
-1164253018.index
