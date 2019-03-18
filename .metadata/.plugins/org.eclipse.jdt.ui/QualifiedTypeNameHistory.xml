@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
+    <fullyQualifiedTypeName name="org.junit.After"/>
+    <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
+    <fullyQualifiedTypeName name="org.junit.AfterClass"/>
+    <fullyQualifiedTypeName name="org.junit.Ignore"/>
+    <fullyQualifiedTypeName name="com.chrisyoo.protein_tracker.InvalidGoalException"/>
+    <fullyQualifiedTypeName name="org.junit.experimental.categories.Category"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Suite"/>
+    <fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.IncludeCategory"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Suite.SuiteClasses"/>
+    <fullyQualifiedTypeName name="org.junit.experimental.categories.Categories"/>
+    <fullyQualifiedTypeName name="org.junit.experimental.categories.Categories.ExcludeCategory"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Parameterized"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameters"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="org.hamcrest.CoreMatchers"/>
+    <fullyQualifiedTypeName name="org.junit.matchers.JUnitMatchers"/>
+    <fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
+    <fullyQualifiedTypeName name="org.junit.Rule"/>
+    <fullyQualifiedTypeName name="org.junit.rules.Timeout"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="org.junit.experimental.theories.Theories"/>
+    <fullyQualifiedTypeName name="org.junit.experimental.theories.DataPoints"/>
+    <fullyQualifiedTypeName name="org.junit.experimental.theories.Theory"/>
+    <fullyQualifiedTypeName name="com.chrisyoo.protein_tracker.TrackingService"/>
+    <fullyQualifiedTypeName name="org.junit.Assume"/>
+</qualifiedTypeNameHistroy>

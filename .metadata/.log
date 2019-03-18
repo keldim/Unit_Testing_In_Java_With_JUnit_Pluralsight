@@ -1,0 +1,363 @@
+!SESSION 2019-02-27 18:38:42.747 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/ChrisYoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/ChrisYoo/Desktop/REFERENCE/SoftwareProjects/Spring/JUnit -product org.eclipse.epp.package.jee.product -keyring /Users/ChrisYoo/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2019-02-27 18:38:45.416
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-02-27 18:38:45.416
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-27 18:38:45.915
+!MESSAGE System property http.proxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-27 18:38:45.915
+!MESSAGE System property http.proxyPort has been set to 7769 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-27 18:38:45.915
+!MESSAGE System property http.nonProxyHosts has been set to freedom.to|*.freedom.to|freedom.to|*.freedom.to|localhost|*.localhost|127.0.0.1|local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-27 18:38:45.916
+!MESSAGE System property https.proxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-02-27 18:38:45.916
+!MESSAGE System property https.proxyPort has been set to 7769 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2019-02-27 18:38:47.519
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-02-27 18:38:47.519
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4951c45f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@488ae823,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-27 18:38:48.964
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-27 18:38:48.964
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 12 2019-02-27 18:38:50.970
+!MESSAGE Unable to parse pattern: ‘*’. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException
+	at org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException.newTrace(Logs.java:387)
+	at org.eclipse.epp.logging.aeri.core.util.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConfiguration.getIgnoredPluginMessagesPatterns(ServerConfiguration.java:333)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:168)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2019-02-27 18:38:53.887
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See '/Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.oomph.setup/setup.log' for details
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-27 19:13:49.898
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-02-27 19:13:49.899
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 2 2 2019-02-27 19:18:07.638
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2019-02-27 19:18:07.638
+!MESSAGE The project description file (.project) for 'ProteinTracker' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-02-27 19:35:36.019
+!MESSAGE No repository found at http://download.springsource.com/release/TOOLS/update/e4.7/.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2019-03-01 21:58:45.286
+!MESSAGE Full project indexing required:
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.apiguardian_1.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.jupiter.api_5.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.jupiter.engine_5.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.jupiter.migrationsupport_5.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.jupiter.params_5.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.commons_1.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.engine_1.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.launcher_1.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.runner_1.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.platform.suite.api_1.0.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit.vintage.engine_4.12.0.v20170910-2246.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar
+  [+] /Applications/Eclipse.app/Contents/Eclipse/plugins/org.opentest4j_1.0.0.v20170910-2246.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+  [+] /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/jrt-fs.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+!SESSION 2019-03-09 17:24:50.262 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ChrisYoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ChrisYoo/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2019-03-09 17:24:54.080
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-09 17:24:54.080
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 17:24:54.829
+!MESSAGE System property http.proxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 17:24:54.829
+!MESSAGE System property http.proxyPort has been set to 7769 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 17:24:54.829
+!MESSAGE System property http.nonProxyHosts has been set to freedom.to|*.freedom.to|freedom.to|*.freedom.to|localhost|*.localhost|127.0.0.1|local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 17:24:54.830
+!MESSAGE System property https.proxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 17:24:54.830
+!MESSAGE System property https.proxyPort has been set to 7769 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2019-03-09 17:24:56.811
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-09 17:24:56.811
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1911427a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2acb6c9a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.resources 4 4 2019-03-09 17:25:00.840
+!MESSAGE Exception loading preferences from: /ProteinTracker/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: File not found: /Users/ChrisYoo/Desktop/REFERENCE/SoftwareProjects/Spring/JUnit/ProteinTracker/.settings/org.eclipse.jdt.core.prefs.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:836)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:507)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:492)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:370)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:491)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:621)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:69)
+	at org.eclipse.jdt.internal.core.JavaProject.getEclipsePreferences(JavaProject.java:1762)
+	at org.eclipse.jdt.internal.core.JavaProject.getOption(JavaProject.java:1941)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.elementType(DeltaProcessor.java:1431)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.traverseDelta(DeltaProcessor.java:2339)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.processResourceDelta(DeltaProcessor.java:1954)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2128)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2019-03-09 17:25:00.845
+!MESSAGE File not found: /Users/ChrisYoo/Desktop/REFERENCE/SoftwareProjects/Spring/JUnit/ProteinTracker/.settings/org.eclipse.jdt.core.prefs.
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2019-03-09 17:25:00.847
+!MESSAGE Exception loading preferences from: /Users/ChrisYoo/Desktop/REFERENCE/SoftwareProjects/Spring/JUnit/ProteinTracker/.settings/org.eclipse.jdt.core.prefs.
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception loading preferences from: /ProteinTracker/.settings/org.eclipse.jdt.core.prefs.
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:515)
+	at org.eclipse.core.internal.resources.ProjectPreferences.load(ProjectPreferences.java:492)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.create(EclipsePreferences.java:370)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.getChild(EclipsePreferences.java:491)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalNode(EclipsePreferences.java:621)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.node(EclipsePreferences.java:766)
+	at org.eclipse.core.resources.ProjectScope.getNode(ProjectScope.java:69)
+	at org.eclipse.jdt.internal.core.JavaProject.getEclipsePreferences(JavaProject.java:1762)
+	at org.eclipse.jdt.internal.core.JavaProject.getOption(JavaProject.java:1941)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.elementType(DeltaProcessor.java:1431)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.traverseDelta(DeltaProcessor.java:2339)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.processResourceDelta(DeltaProcessor.java:1954)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2128)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 12 2019-03-09 17:25:01.779
+!MESSAGE Unable to parse pattern: ‘*’. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException
+	at org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException.newTrace(Logs.java:387)
+	at org.eclipse.epp.logging.aeri.core.util.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConfiguration.getIgnoredPluginMessagesPatterns(ServerConfiguration.java:333)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:168)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY org.eclipse.ui 2 2 2019-03-09 20:10:56.975
+!MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2019-03-09 20:10:56.975
+!MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2019-03-09 20:10:56.976
+!MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
+!SESSION 2019-03-09 22:53:58.597 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/ChrisYoo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data /Users/ChrisYoo/Desktop/REFERENCE/SoftwareProjects/Spring/Testing/JUnit_John_Sonmez -product org.eclipse.epp.package.jee.product -keyring /Users/ChrisYoo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-09 22:54:01.317
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2019-03-09 22:54:02.296
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-03-09 22:54:02.296
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 22:54:02.939
+!MESSAGE System property http.proxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 22:54:02.939
+!MESSAGE System property http.proxyPort has been set to 7769 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 22:54:02.940
+!MESSAGE System property http.nonProxyHosts has been set to freedom.to|*.freedom.to|freedom.to|*.freedom.to|localhost|*.localhost|127.0.0.1|local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 22:54:02.940
+!MESSAGE System property https.proxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-03-09 22:54:02.941
+!MESSAGE System property https.proxyPort has been set to 7769 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2019-03-09 22:54:04.843
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-03-09 22:54:04.843
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11b5b1f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2eb95662,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 12 2019-03-09 22:54:09.132
+!MESSAGE Unable to parse pattern: ‘*’. ; version: 2.0.7.v20170906-1327
+!STACK 0
+org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException
+	at org.eclipse.epp.logging.aeri.core.util.Logs$LogTraceException.newTrace(Logs.java:387)
+	at org.eclipse.epp.logging.aeri.core.util.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConfiguration.getIgnoredPluginMessagesPatterns(ServerConfiguration.java:333)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:168)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.base/java.lang.Thread.run(Thread.java:844)

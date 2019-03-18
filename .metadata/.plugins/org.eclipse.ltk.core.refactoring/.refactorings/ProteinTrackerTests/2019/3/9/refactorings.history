@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.chrisyoo.protein_tracker_tests.BadCategroy.java&apos; to &apos;BadCategory.java&apos;&#x0A;- Original project: &apos;ProteinTrackerTests&apos;&#x0A;- Original element: &apos;com.chrisyoo.protein_tracker_tests.BadCategroy.java&apos;&#x0A;- Renamed element: &apos;com.chrisyoo.protein_tracker_tests.BadCategory.java&apos;" description="Rename compilation unit &apos;BadCategroy.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.chrisyoo.protein_tracker_tests{BadCategroy.java" name="BadCategory.java" references="false" stamp="1551415822184" version="1.0"/>
+</session>
